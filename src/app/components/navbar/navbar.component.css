@@ -1,0 +1,25 @@
+#nav {
+  border-radius: 3px;
+  box-shadow: 0 4px 8px 0 rgba(65, 65, 65, 0.2);
+  background-color: white;
+}
+#nav .far {
+  margin-top: 20px;
+  color: grey;
+  cursor: pointer;
+}
+#nav .far:active {
+  color: #262D3F;
+}
+#nav ul li {
+  color: grey;
+  list-style-type: none;
+  display: inline;
+  margin: 5px 17px;
+  font-size: 18px;
+  cursor: pointer;
+}
+#nav ul li:active {
+  color: #262D3F;
+}
+/*# sourceMappingURL=navbar.component.css.map */

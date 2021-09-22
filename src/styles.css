@@ -1,0 +1,23 @@
+@import "../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
+@font-face {
+  font-family: Dubai-font;
+  src: url(assets/fonts/Dubai-Regular.ttf) format("truetype");
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  --bs-gutter-x:0 !important;
+  font-family: Dubai-font !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ebebeb !important;
+}
+
+.row {
+  --bs-gutter-x: 0 !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+/*# sourceMappingURL=styles.css.map */

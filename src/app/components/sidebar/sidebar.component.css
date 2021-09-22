@@ -1,0 +1,31 @@
+.categories {
+  border-radius: 3px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  background-color: #262D3F;
+  color: #c5c5c5;
+}
+.categories h2 {
+  font-size: calc(1.5rem + 0.2vw);
+}
+.categories li {
+  list-style-type: none;
+  padding: 10px 0;
+}
+.categories li span {
+  margin-left: 15px;
+}
+.categories li:hover {
+  background-color: #313849;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 991px) {
+  .categories {
+    height: -webkit-fit-content !important;
+    height: -moz-fit-content !important;
+    height: fit-content !important;
+  }
+}
+/*# sourceMappingURL=sidebar.component.css.map */

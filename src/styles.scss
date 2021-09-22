@@ -1,0 +1,20 @@
+@import "../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
+
+@font-face {
+  font-family: Dubai-font;
+  src: url(assets/fonts/Dubai-Regular.ttf) format('truetype');
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  --bs-gutter-x:0 !important;
+  font-family: Dubai-font !important;
+  background-color: rgb(235, 235, 235) !important;
+
+}
+
+.row {
+  --bs-gutter-x: 0 !important;
+}
+

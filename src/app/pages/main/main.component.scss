@@ -1,0 +1,56 @@
+.dashboard {
+  color: rgb(99, 98, 98);
+}
+
+.main{
+      border-radius: 5px;
+      box-shadow: 0 4px 8px 0 rgba(65, 65, 65, 0.2);
+      background-color: white;
+
+    
+      .tab-pane{
+        color:gray !important;
+      }
+
+       .nav-link.active{
+        color: white !important;
+        background-color: #262D3F !important;
+       }
+       .nav-link{
+         color: gray;
+       }
+       input[type=radio]+label>img {
+         width: 60px;
+         height: 60px;
+         transition: 100ms all;
+        cursor: pointer;
+       }
+       .input-hidden {
+        
+        visibility: hidden;
+       }
+       input[type=radio]:checked+label>img {
+         border: 1px solid #fff;
+         box-shadow: 0 0 2px 2px #262D3F;
+       }
+     
+     .preview{
+       border-radius: 3px;
+       border: 2px solid lightgray;
+       margin: 2px 0;
+      
+       h4{
+          color: rgb(99, 98, 98);
+       }
+     }
+     .v-pills-home {
+       border-radius: 3px;
+       border: 2px solid lightgray;
+       height: 200px;
+       margin: 2px 0;
+     }
+     button{
+       font-size: calc(0.9rem + 0.1vw);
+     }
+}
+
